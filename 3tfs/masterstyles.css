@@ -1,0 +1,340 @@
+/* 
+Authors: Tran Trung Tin, Lu Nguyen Phuc Thinh, Le Chi Thien
+Date: 22 April 2011
+Semester: 2-2011
+
+*/
+
+body {
+    width: 100%;
+    background: #555555;
+    font-size: small;
+    font-family: Verdana, Arial, Serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* id styles */
+#pagesection {
+    width: 90%;
+	height: 100%;
+    margin: 2% auto;
+    background: #ADD8E6;
+    text-align: left;
+    margin-left: auto;
+	margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+html>body #pagesection { 
+    border: 1px solid #fff; 
+    border-color: transparent; 
+    border-top: 0; 
+    border-bottom: 0; 
+}
+
+
+#contentsection {
+
+}
+
+#banner {
+    background-image: url('images/logo.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    position: relative;
+    display: block;
+    height: 150px;
+    border-bottom: 2px solid #000;
+}
+
+
+#clearer {
+    clear: both;
+
+}
+
+#top {
+
+}
+
+
+/* ==================================================== */
+
+
+
+
+
+#footer {
+    height: 100px;
+    background: #8a7e0b;
+    text-align: center;
+    font-size: x-small;
+    border-top: 2px solid #000;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a:link {
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: transparent;
+
+}
+
+.menu a:visited {
+    text-decoration: none;
+}
+
+/* 
+====================================================
+HORIZONTAL NAV STYLE
+*/
+#horizontalnav  {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+#horizontalnav ul {
+	margin: 0;
+	padding: 10px 14%;
+	zoom: 1;
+}
+#horizontalnav a {
+    padding: 5px 10px;
+    color: blue;
+}
+
+#horizontalnav a:hover {
+    color: #000;
+    background-image: url('images/background_account.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-color: transparent;
+}
+
+#bottomnav a:hover {
+    text-decoration: underline; 
+}
+
+/*
+====================================================
+THREE COLUMNs LAYOUT STYLE
+*/
+
+
+
+#leftlayout, #mainlayout, #rightlayout {
+    float:left;
+    position:relative;
+    width:100%;
+}
+
+#leftlayout {
+    right:62%;
+    background: transparent;
+	border-right: 1px solid #000;
+}
+
+#mainlayout {
+    right:24%;
+    background: transparent;
+	border-right: 1px solid #000;
+}
+
+#rightlayout {
+    overflow:hidden;
+    background: transparent;
+}
+
+#lsidebar, #content, #rsidebar {
+    float: left;
+    position:relative;
+    overflow:hidden;
+}
+
+#lsidebar {
+    width:10%;
+    left:88%;
+}
+
+#content {
+    width:58%;
+    left:92%;
+}
+
+#rsidebar {
+    width:20%;
+    left:96%;
+}
+
+
+/* 
+#rightlayout {}
+#mainlayout {}
+#leftlayout {right: 60%;}
+#mainlayout {right: 22%;}
+#rightlayout {right: 0%;}
+#lsidebar {left: 82%; width: 18%;}
+#content {left: 82%; width: 58%;}
+#rsidebar {position: absolute; left: 160%; width: 21%;} 
+*/
+
+
+#verticalmenu {
+    /*     
+	width: 100px;
+    background: #7CFC00;
+    float: left;
+    text-align: left; 
+	*/
+}
+
+#verticalmenu ul {
+    margin: 0px;
+    padding: 5px 10px;
+}
+
+#verticalmenu li {
+    display: block;
+    list-style-type: none;
+}
+
+#verticalmenu a {
+    display: block;
+    height: 20px;
+}
+
+/* 
+====================================================
+ACCOUNT STYLE
+*/
+
+div#accounts {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
+
+#accounts {
+    float: right;
+    display:inline;
+}
+
+#accounts a {
+    color: white;
+}
+
+#accounts a:hover {
+    color: #000;
+    background-color: transparent;
+}
+
+/*
+ACCOUNT STYLE
+====================================================
+*/
+
+/* 
+====================================================
+SEARCH STYLE
+*/
+div#search {position: absolute; right: 1em; bottom: 1em;} 
+
+#search {
+    text-align: center;
+    display: inline; 
+    width: auto;
+    height: auto;
+}
+
+#search input {
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle; 
+    height: auto;
+}
+
+/*
+SEARCH STYLE
+====================================================
+*/
+
+/* 
+====================================================
+SECTION STYLE
+*/
+.section {
+	font-size: small;
+    margin: 3px 5px;
+    /* border: 2px solid #000; */
+	width: auto;
+}
+
+.section ul {
+    display: block;
+	padding: 0 20px;
+}
+
+.section li {
+    list-style-type: none;
+}
+
+.section label {
+	float: left;
+    margin: 5px 0;
+    width: 150px;
+    clear: left;
+}
+
+.section input {
+    margin: 5px 0;
+	width: 150px;
+}
+
+.section input#button {
+	width: auto;
+	padding: 0;
+	margin: 2px;
+}
+
+/*
+SECTION STYLE
+====================================================
+*/
+
+#signup form fieldset {
+	width: 600px; 	
+	border: 0px;
+}
+
+
+#logo {
+    border: 0px;
+}

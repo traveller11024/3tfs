@@ -1,4 +1,3 @@
-
 <?php	
 ob_start();
 session_start();
@@ -17,6 +16,6 @@ else {
 echo "|";
 echo "<a href=\"help.html\">Help</a>";
 	
-	
+// testing edited pm Github	
 ?>
 
